@@ -1,0 +1,52 @@
+@import "~@flaticon/flaticon-uicons/css/all/all";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+/* ==== Global Styles ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Circular", "Nunito", sans-serif;
+}
+
+/* ==== Theme Colors ==== */
+:root {
+  /* Colors */
+  --primaryColor: #ff385c;
+  --secondaryColor: #717171;
+  --backgroundLight: #ffffff;
+  --backgroundGray: #f7f7f7;
+  --borderColor: #d6d6d6;
+  --textDark: #222222;
+
+  /* Font Sizes */
+  --fontXSmall: 12px;
+  --fontSmall: 14px;
+  --fontMedium: 16px;
+  --fontLarge: 18px;
+  --fontXLarge: 28px;
+  --fontELarge: 35px;
+
+  /*Font Weight*/
+
+  --fontSWeight: 500;
+  --fontMWeight: 600;
+  --fontLWeight: 700;
+  --fontXWeight: 800;
+
+  /* Spacing */
+  --paddingSmall: 8px;
+  --paddingMedium: 12px;
+  --paddingLarge: 16px;
+
+  --marginSmall: 8px;
+  --marginMedium: 12px;
+  --marginLarge: 16px;
+
+  --radiusSmall: 8px;
+  --radiusMedium: 12px;
+  --radiusLarge: 30px;
+  --radiusXLarge: 50px;
+}
+
+/* ==== Common Button Styles ==== */

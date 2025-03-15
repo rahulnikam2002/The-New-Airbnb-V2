@@ -1,0 +1,30 @@
+.headerMain {
+  padding: 20px 75px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo > i {
+  font-size: var(--fontELarge);
+  color: var(--primaryColor);
+  margin-right: var(--marginSmall);
+}
+.logo > p {
+  font-size: var(--fontLarge);
+  color: var(--primaryColor);
+  font-weight: var(--fontXWeight);
+}
+
+.profile {
+  border: 1px solid var(--borderColor);
+  border-radius: var(--radiusLarge);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 8px;
+}

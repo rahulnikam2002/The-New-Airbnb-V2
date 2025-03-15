@@ -1,0 +1,12 @@
+.filterBar {
+  padding: 0px 70px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 1px solid var(--borderColor);
+}
+
+.filtSec {
+  display: flex;
+  align-items: center;
+}

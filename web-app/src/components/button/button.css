@@ -1,0 +1,53 @@
+/* ==== Button Global Styles ==== */
+.customBtn {
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  align-items: center;
+  gap: 8px;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btnIcon {
+  position: relative;
+  top: 2px;
+}
+/* ==== Button Variants ==== */
+.default {
+  background: var(--backgroundLight);
+  color: #222;
+  font-size: var(--fontSmall);
+}
+
+.primary {
+  background: #ff385c;
+  color: white;
+}
+
+.secondary {
+  background: #717171;
+  color: white;
+}
+
+.search {
+  align-items: center;
+  background: #ff385c;
+  color: white;
+  border-radius: 50%;
+  font-size: var(--fontXSmall);
+  padding: 10px 12px;
+}
+
+/* ==== Button Sizes ==== */
+.small {
+  padding: 8px 12px;
+}
+
+.medium {
+  padding: 10px 16px;
+}
+
+.large {
+  padding: 12px 18px;
+}
