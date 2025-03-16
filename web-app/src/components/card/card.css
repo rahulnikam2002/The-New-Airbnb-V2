@@ -1,0 +1,58 @@
+.singleCard {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 330px;
+  cursor: pointer;
+}
+
+.locationStar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.locationStar p {
+  font-size: var(--fontMedium);
+  color: var(--textDark);
+  font-weight: var(--fontLWeight);
+}
+.starRating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.starRating > i {
+  position: relative;
+  top: 2px;
+  font-size: var(--fontSmall);
+  color: var(--textDark);
+  font-weight: var(--fontLWeight);
+}
+.price {
+  font-size: var(--Medium);
+  color: var(--textDark);
+  font-weight: var(--fontLWeight);
+}
+
+.cardDetails > p:last-child {
+  margin-top: 5px;
+}
+.cardImage {
+  width: 100%;
+  height: 322px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cardDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.cardDetails > p {
+  font-size: var(--fontMedium);
+  color: var(--secondaryColor);
+}
