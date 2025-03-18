@@ -40,6 +40,9 @@
 }
 
 /* ==== Button Sizes ==== */
+.xSmall {
+  padding: 4px 10px;
+}
 .small {
   padding: 8px 12px;
 }
