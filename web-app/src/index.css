@@ -12,6 +12,7 @@
 /* ==== Theme Colors ==== */
 :root {
   /* Colors */
+  --black: black;
   --primaryColor: #ff385c;
   --secondaryColor: #717171;
   --backgroundLight: #ffffff;
