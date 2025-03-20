@@ -9,11 +9,11 @@ export const propertyData = [
             "https://images.pexels.com/photos/2762672/pexels-photo-2762672.jpeg"
         ],
         title: "TripThrill Matthuga - East Bungalow Homestay-7",
-        location: "Sainj, India",
-        distance: "1,513 kilometers away",
-        dates: "9–14 Mar",
-        price: "₹2,350",
-        rating: "4.93"
+        location: "Jibhi, India",  // Changed location to match propertiesData
+        distance: "1,493 kilometers away",
+        dates: "23–28 Mar",
+        price: "₹11,982",
+        rating: "4.95"
     },
     {
         id: 2,
@@ -25,11 +25,11 @@ export const propertyData = [
             "https://images.pexels.com/photos/1638917/pexels-photo-1638917.jpeg"
         ],
         title: "Luxury Villa with Private Pool",
-        location: "Bali, Indonesia",
-        distance: "5,600 kilometers away",
-        dates: "20–25 Apr",
-        price: "₹15,200",
-        rating: "4.89"
+        location: "Shinano, Japan",  // Changed to match propertiesData
+        distance: "6,532 kilometers away",
+        dates: "30 Mar – 4 Apr",
+        price: "₹40,596",
+        rating: "4.94"
     },
     {
         id: 3,
@@ -41,11 +41,11 @@ export const propertyData = [
             "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
         ],
         title: "Beachfront Paradise Resort",
-        location: "Maldives",
-        distance: "2,200 kilometers away",
-        dates: "15–20 Jul",
-        price: "₹50,600",
-        rating: "4.96"
+        location: "Zermatt, Switzerland",  // Changed to match propertiesData
+        distance: "7,100 kilometers away",
+        dates: "10–15 Apr",
+        price: "₹52,320",
+        rating: "4.98"
     },
     {
         id: 4,
@@ -57,11 +57,11 @@ export const propertyData = [
             "https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg"
         ],
         title: "Lake View Cottage",
-        location: "Lake Como, Italy",
-        distance: "6,800 kilometers away",
-        dates: "25–30 Aug",
-        price: "₹42,000",
-        rating: "4.94"
+        location: "Goa, India",  // Changed to match propertiesData
+        distance: "450 kilometers away",
+        dates: "5–10 May",
+        price: "₹18,000",
+        rating: "4.87"
     },
     {
         id: 5,
@@ -73,10 +73,10 @@ export const propertyData = [
             "https://images.pexels.com/photos/2762672/pexels-photo-2762672.jpeg"
         ],
         title: "Luxury Hilltop Mansion",
-        location: "Zurich, Switzerland",
-        distance: "7,100 kilometers away",
-        dates: "10–15 Sep",
-        price: "₹52,320",
-        rating: "4.98"
+        location: "Aspen, USA",  // Changed to match propertiesData
+        distance: "8,200 kilometers away",
+        dates: "12–17 Mar",
+        price: "₹25,500",
+        rating: "4.92"
     }
 ];
