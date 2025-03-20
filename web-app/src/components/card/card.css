@@ -4,6 +4,7 @@
   overflow: hidden;
   width: 330px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .singleCard > i {

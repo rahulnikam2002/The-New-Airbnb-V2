@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom'
 import { Button } from '../button/button'
 import './card.css'
 
-export const SingleCard = ({ image, location, distance, dates, price, rating }) => {
+export const SingleCard = ({ id, image, location, distance, dates, price, rating }) => {
     return (
-        <div className="singleCard">
+        <Link to={`/property/${id}`} className="singleCard">
             <img src={image} alt={location} className="cardImage" />
             <Button
                 size={"xSmall"}
@@ -37,6 +38,6 @@ export const SingleCard = ({ image, location, distance, dates, price, rating }) 
                 <p><span className='price'>{price}</span> night</p>
 
             </div>
-        </div>
+        </Link>
     )
 }
