@@ -17,7 +17,7 @@ export const CardList = () => {
         setTimeout(() => {
             setProperties(propertiesData)
             setIsLoading(false)
-        }, 2000)
+        }, 500)
 
     }, [])
 
@@ -31,6 +31,7 @@ export const CardList = () => {
                 {properties.map((property, index) => (
                     <SingleCard
                         key={index}
+                        id={index}
                         image={property.image}
                         location={property.location}
                         distance={property.distance}

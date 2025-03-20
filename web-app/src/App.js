@@ -1,19 +1,16 @@
 
 import './App.css';
-import { Header } from './components/header/header';
 
-import { FilterBar } from './components/filterBar/filter';
-import { CardList } from './components/cardlist/cardlist';
-import { Footer } from './components/footer/footer';
+import { Route, Routes } from 'react-router-dom';
+import { Home } from './pages/home/home';
+import { SingleProperty } from './pages/singleProperty/singleProperty';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <FilterBar />
-      <CardList />
-      <Footer />
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/property/:id' element={<SingleProperty />} />
+    </Routes>
   );
 }
 
