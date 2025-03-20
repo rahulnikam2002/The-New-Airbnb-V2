@@ -1,0 +1,126 @@
+.reservationBox {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.reservationLeft {
+  flex: 2;
+}
+
+/* Property Info */
+.propertyInfo > p:first-child {
+  color: var(--textDark);
+  font-size: var(--fontXLarge);
+  font-weight: var(--fontLWeight);
+}
+.propertyInfo > p:nth-child(2) {
+  color: var(--secondaryColor);
+  font-size: var(--fontMedium);
+  font-weight: var(--fontMWeight);
+}
+
+.starReview {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.starReview i {
+  margin-top: 2px;
+}
+
+.starReview a {
+  color: var(--textDark);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.starReview a:hover {
+  text-decoration: underline;
+}
+
+/* Host Section */
+.host {
+  display: flex;
+
+  align-items: center;
+  gap: 15px;
+}
+
+.host i {
+  font-size: var(--fontELarge);
+  align-items: center;
+  margin-top: 10px;
+}
+
+.hostName p {
+  margin: 0;
+
+  font-size: var(--fontMedium);
+}
+
+/* Highlights Section */
+.highlightsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.highlightItem {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  padding-bottom: 5px;
+}
+
+.highlightItem i {
+  font-size: 22px;
+}
+
+.highlightItem p {
+  margin: 0;
+  font-size: var(--fontMedium);
+}
+
+.desc p {
+  line-height: 1.6;
+  font-size: var(--fontMedium);
+  padding: 10px 0px;
+}
+
+.desc a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: var(--fontLWeight);
+  font-size: var(--fontMedium);
+  color: var(--textDark);
+}
+
+/* Right Section */
+.reservationRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Divider Styling */
+hr {
+  border: none;
+  margin: 15px 0px;
+  border-top: 1px solid var(--borderColor);
+}
