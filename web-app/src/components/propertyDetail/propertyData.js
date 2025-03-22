@@ -1,6 +1,7 @@
 export const propertyData = [
     {
         id: 1,
+        title: "TripThrill Matthuga - East Bungalow Homestay-7",
         image: "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
         gallery: [
             "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
@@ -8,8 +9,7 @@ export const propertyData = [
             "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
             "https://images.pexels.com/photos/2762672/pexels-photo-2762672.jpeg"
         ],
-        title: "TripThrill Matthuga - East Bungalow Homestay-7",
-        location: "Jibhi, India",  // Changed location to match propertiesData
+        location: "Jibhi, India",
         distance: "1,493 kilometers away",
         dates: "23–28 Mar",
         price: "₹11,982",
@@ -17,6 +17,7 @@ export const propertyData = [
     },
     {
         id: 2,
+        title: "Luxury Villa with Private Pool",
         image: "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
         gallery: [
             "https://images.pexels.com/photos/3183198/pexels-photo-3183198.jpeg",
@@ -24,8 +25,7 @@ export const propertyData = [
             "https://images.pexels.com/photos/2104151/pexels-photo-2104151.jpeg",
             "https://images.pexels.com/photos/1638917/pexels-photo-1638917.jpeg"
         ],
-        title: "Luxury Villa with Private Pool",
-        location: "Shinano, Japan",  // Changed to match propertiesData
+        location: "Shinano, Japan",
         distance: "6,532 kilometers away",
         dates: "30 Mar – 4 Apr",
         price: "₹40,596",
@@ -33,6 +33,7 @@ export const propertyData = [
     },
     {
         id: 3,
+        title: "Beachfront Paradise Resort",
         image: "https://images.pexels.com/photos/2762672/pexels-photo-2762672.jpeg",
         gallery: [
             "https://images.pexels.com/photos/210182/pexels-photo-210182.jpeg",
@@ -40,8 +41,7 @@ export const propertyData = [
             "https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg",
             "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg"
         ],
-        title: "Beachfront Paradise Resort",
-        location: "Zermatt, Switzerland",  // Changed to match propertiesData
+        location: "Zermatt, Switzerland",
         distance: "7,100 kilometers away",
         dates: "10–15 Apr",
         price: "₹52,320",
@@ -49,6 +49,7 @@ export const propertyData = [
     },
     {
         id: 4,
+        title: "Lake View Cottage",
         image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
         gallery: [
             "https://images.pexels.com/photos/358636/pexels-photo-358636.jpeg",
@@ -56,8 +57,7 @@ export const propertyData = [
             "https://images.pexels.com/photos/129494/pexels-photo-129494.jpeg",
             "https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg"
         ],
-        title: "Lake View Cottage",
-        location: "Goa, India",  // Changed to match propertiesData
+        location: "Goa, India",
         distance: "450 kilometers away",
         dates: "5–10 May",
         price: "₹18,000",
@@ -65,6 +65,7 @@ export const propertyData = [
     },
     {
         id: 5,
+        title: "Luxury Hilltop Mansion",
         image: "https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg",
         gallery: [
             "https://images.pexels.com/photos/261187/pexels-photo-261187.jpeg",
@@ -72,8 +73,7 @@ export const propertyData = [
             "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg",
             "https://images.pexels.com/photos/2762672/pexels-photo-2762672.jpeg"
         ],
-        title: "Luxury Hilltop Mansion",
-        location: "Aspen, USA",  // Changed to match propertiesData
+        location: "Aspen, USA",
         distance: "8,200 kilometers away",
         dates: "12–17 Mar",
         price: "₹25,500",

@@ -6,6 +6,7 @@ export const SingleProperty = () => {
     return (
         <div style={{ padding: "0px 140px" }}>
             <Header />
+
             <PropertyDetail />
             <ReservationBox />
         </div>

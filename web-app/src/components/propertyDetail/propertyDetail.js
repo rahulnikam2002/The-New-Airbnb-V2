@@ -3,10 +3,11 @@ import { propertyData } from "./propertyData"
 import { Button } from "../button/button"
 import './propertyDetail.css'
 
+
 export const PropertyDetail = () => {
     const { id } = useParams()
-    const property = propertyData[id]
-
+    const property = propertyData.find(item => item.id === Number(id))
+    console.log(property)
 
     if (!property) {
         return <p>Property not found</p>

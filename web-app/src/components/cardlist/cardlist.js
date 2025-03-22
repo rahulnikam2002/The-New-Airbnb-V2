@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { SingleCard } from "../card/card";
 import './cardlist.css'
 
-import { propertiesData } from "./data";
+import { propertyData } from "../propertyDetail/propertyData";
 
 
 
@@ -15,7 +15,7 @@ export const CardList = () => {
     useEffect(() => {
         setIsLoading(true)
         setTimeout(() => {
-            setProperties(propertiesData)
+            setProperties(propertyData)
             setIsLoading(false)
         }, 500)
 
@@ -31,7 +31,7 @@ export const CardList = () => {
                 {properties.map((property, index) => (
                     <SingleCard
                         key={index}
-                        id={index}
+                        id={property.id}
                         image={property.image}
                         location={property.location}
                         distance={property.distance}
