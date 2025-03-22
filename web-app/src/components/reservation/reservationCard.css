@@ -1,0 +1,130 @@
+.reservationRight {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: var(--backgroundLight);
+  border: 1px solid var(--borderColor);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  height: 430px;
+}
+
+/* Divider Styling */
+
+.price {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.oldPrice {
+  text-decoration: line-through;
+  font-size: 22px;
+  font-weight: var(--fontLWeight);
+  color: var(--secondaryColor);
+}
+
+.newPrice {
+  font-weight: var(--fontLWeight);
+  font-size: 22px;
+  color: var(--textDark);
+}
+.price > span {
+  color: var(--secondaryColor);
+  font-weight: var(--fontSWeight);
+}
+.dateGuestContainer {
+  border: 1px solid var(--borderColor);
+
+  border-radius: 12px;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.dateWrapper {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.checkoutBox {
+  flex: 1;
+  padding: 10px;
+  border-right: 1px solid #ccc;
+  text-align: left;
+}
+
+.checkout {
+  border-right: none;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  color: var(--textDark);
+  margin: 0px;
+}
+
+.date {
+  font-size: 14px;
+  color: #222;
+}
+
+.guestWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.guestSelect {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+  color: var(--textDark);
+  cursor: pointer;
+  background: #fff;
+  transition: 0.3s;
+}
+
+/* Info Text */
+.infoText {
+  padding-left: 80px;
+
+  font-size: var(--fontMedium);
+  font-weight: var(--fontMWeight);
+  color: var(--secondaryColor);
+  margin: 10px 0;
+}
+
+/* Price Breakdown */
+
+.priceRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0; /* Add margin to create space */
+}
+.total {
+  border-top: 1px solid var(--borderColor);
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+  width: 100%;
+  margin: 5px 0; /* Add margin to create space */
+}
+
+.reservationRight {
+  position: sticky;
+  top: 50px; /* Adjust based on your layout */
+
+  max-height: 80vh; /* Prevent overflow */
+  overflow-y: auto;
+  z-index: 10;
+}

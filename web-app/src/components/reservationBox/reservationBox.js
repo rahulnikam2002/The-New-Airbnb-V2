@@ -1,15 +1,22 @@
 import { Link, useParams } from "react-router-dom"
 import { propertyData } from "../propertyDetail/propertyData"
 import './reservationBox.css'
+import { ReservationCard } from "../reservation/reservationCard"
+
+
 
 export const ReservationBox = () => {
+
     const { id } = useParams()
-    const property = propertyData[id]
+    const property = propertyData.find(item => item.id === Number(id))
 
-
+    console.log(property, id)
     if (!property) {
         return <p>Property not found</p>
+
     }
+
+
     return (
         <div className="reservationBox">
             <div className="reservationLeft">
@@ -70,10 +77,10 @@ export const ReservationBox = () => {
                         margin: "5px 5px 0px 5px"
                     }} class="fi fi-rr-angle-right"></i></Link>
                 </div>
-            </div>
-            <div className="reservationRight">
 
             </div>
+            <ReservationCard price={property.price}
+            />
         </div>
     )
 }
