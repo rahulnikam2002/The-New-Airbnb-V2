@@ -4,6 +4,19 @@ import './reservationBox.css'
 import { ReservationCard } from "../reservation/reservationCard"
 import { Button } from "../button/button"
 
+const amenities = [
+    { icon: "fi fi-rr-mountain", label: "Valley view", key: "valleyView" },
+    { icon: "fi fi-rr-flower-butterfly", label: "Garden view", key: "gardenView" },
+    { icon: "fi fi-rr-utensils", label: "Kitchen", key: "kitchen" },
+    { icon: "fi fi-rr-laptop", label: "Dedicated workspace", key: "dedicatedWorkspace" },
+    { icon: "fi fi-rr-washer", label: "Free washer – In building", key: "freeWasherInBuilding" },
+    { icon: "fi fi-rr-wifi", label: "Wifi – 11 Mbps", key: "wifi11Mbps" },
+    { icon: "fi fi-rr-car", label: "Free on-street parking", key: "freeOnStreetParking" },
+    { icon: "fi fi-rr-camera-cctv", label: "Exterior security cameras on property", key: "exteriorSecurityCameras" },
+    { icon: "fi fi-rr-sensor-fire", label: "Carbon monoxide alarm", key: "carbonMonoxideAlarm", disabled: true },
+    { icon: "fi fi-rr-smoke", label: "Smoke alarm", key: "smokeAlarm", disabled: true }
+];
+
 
 
 export const ReservationBox = () => {
@@ -106,6 +119,31 @@ export const ReservationBox = () => {
                             <p className="roomInfo">1 king bed</p>
                         </div>
                     </div>
+                </div>
+                <hr />
+
+                <div className="amenitiesSection">
+                    <p>What this place offers</p>
+                    <div className="amenitiesGrid">
+                        {amenities.map((item) => (
+                            <div className="amenityItem">
+                                <i className={item.icon}></i>
+                                <span className="label">{item.label}</span>
+                            </div>
+                        ))}
+                    </div>
+                    <Button variant={"default"}
+                        size={"large"}
+
+                        style={{
+                            border: "1px solid var(--textDark)",
+                            fontSize: "var(--fontMedium)",
+                            borderRadius: "var(--radiusSmall)",
+                            fontWeight: "var(--fontMWeight)",
+                            color: "var(--textDark)",
+                            marginTop: "20px"
+
+                        }} text={`Show all ${amenities.length} amenities`} />
                 </div>
                 <hr />
 
