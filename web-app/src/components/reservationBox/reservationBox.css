@@ -10,6 +10,7 @@
 
 .reservationLeft {
   flex: 2;
+  padding-right: 50px;
 }
 
 /* Property Info */
@@ -107,4 +108,66 @@
 hr {
   border-top: 1px solid #eee;
   margin: 20px 0;
+}
+
+.sleepingRoom {
+  font-family: Arial, sans-serif;
+  padding: 20px 0px;
+}
+
+.roomHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.roomHeader p {
+  color: var(--textDark);
+  font-size: 22px;
+  font-weight: var(--fontLWeight);
+}
+
+/* Navigation inside header */
+.roomNav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.roomNav span {
+  font-size: var(--fontSmall);
+  color: var(--secondaryColor);
+}
+
+.roomCards {
+  display: flex;
+  gap: 20px;
+}
+
+.singleBedroom {
+  width: 100%;
+  max-width: 350px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.singleBedroom img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 10px 0px;
+}
+
+.roomTitle {
+  font-size: var(--fontLarge);
+  font-weight: bold;
+
+  color: var(--textDark);
+}
+
+.roomInfo {
+  font-size: var(--fontSmall);
+  color: var(--secondaryColor);
 }
