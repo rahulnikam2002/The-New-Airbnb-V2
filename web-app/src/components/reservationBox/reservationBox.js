@@ -145,10 +145,11 @@ export const ReservationBox = () => {
 
                         }} text={`Show all ${amenities.length} amenities`} />
                 </div>
-                <hr />
+
 
 
             </div>
+
             <ReservationCard price={property.price} />
 
 
