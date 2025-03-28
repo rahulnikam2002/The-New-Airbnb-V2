@@ -6,12 +6,11 @@
   background: var(--backgroundLight);
   border: 1px solid var(--borderColor);
   padding: 20px;
+  margin-top: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   height: 430px;
 }
-
-/* Divider Styling */
 
 .price {
   display: flex;
@@ -122,7 +121,7 @@
 
 .reservationRight {
   position: sticky;
-  top: 50px; /* Adjust based on your layout */
+  top: 100px; /* Adjust based on your layout */
 
   max-height: 80vh; /* Prevent overflow */
   overflow-y: auto;
